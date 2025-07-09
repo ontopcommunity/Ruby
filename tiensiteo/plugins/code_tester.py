@@ -54,7 +54,7 @@ Tính năng này cho phép bạn chạy nhiều ngôn ngữ lập trình thông 
 ~> typescript
 
 **Ví dụ:**
-~> `!python print("Xin chào, tôi là Tiến sĩ Tèo")`</blockquote>
+~> `!python print("Xin chào, tôi là Ruby Chan")`</blockquote>
 """
 
 
