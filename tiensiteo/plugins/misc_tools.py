@@ -238,7 +238,7 @@ async def translate(_, message):
         my_translator = GoogleTranslator(source="auto", target=target_lang)
         result = my_translator.translate(text=text)
         await msg.edit_msg(
-            f"💠 <b>Bản dịch {my_translator.source} -> {my_translator.target}</b>\n——————————————————\n<blockquote expandable>{result}</blockquote>\n<b>Dịch bởi Tiến sĩ Tèo</b>"
+            f"💠 <b>Bản dịch {my_translator.source} -> {my_translator.target}</b>\n——————————————————\n<blockquote expandable>{result}</blockquote>\n<b>Dịch bởi Ruby Chan</b>"
         )
     except MessageTooLong:
         url = await rentry(result)
