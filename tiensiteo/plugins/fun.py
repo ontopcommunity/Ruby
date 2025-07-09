@@ -174,7 +174,7 @@ responses = [
 
 
 # Hàm xử lý khi phát hiện từ 'Tèo' trong tin nhắn
-@app.on_message(filters.text & filters.regex(r".*Tèo.*"))
+@app.on_message(filters.text & filters.regex(r".*Ruby Chan.*"))
 @use_chat_lang()
 async def reply_to_teo(c, m, strings):
     response = random.choice(responses)  # Chọn câu trả lời ngẫu nhiên
