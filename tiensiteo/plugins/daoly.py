@@ -249,7 +249,7 @@ async def daoly(_, ctx: Message, strings):
         response_text = (
             f"<b>Đây là đạo lý hôm nay dành cho {sender_mention}!</b>\n\n" # Dòng mới được thêm
             f"<blockquote>{random_daoly}</blockquote>\n\n"
-            f"<i>Đạo lý bởi Tiến sĩ Tèo</i>"
+            f"<i>Đạo lý bởi Ruby Chan</i>"
         )
         
         # Gửi tin nhắn HTML
