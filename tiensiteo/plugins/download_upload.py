@@ -255,7 +255,7 @@ async def upload(bot, message):
                                     InlineKeyboardButton("📥 qua OTA", url=install_url),
                                 ],
                                 [
-                                    InlineKeyboardButton("Ủng hộ Tiến Sĩ Tèo", url="https://dabeecao.org#donate")
+                                    InlineKeyboardButton("Ủng hộ Ruby Chan", url="https://dabeecao.org#donate")
                                 ]
                             ]
                         )
