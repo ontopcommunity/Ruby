@@ -85,15 +85,15 @@ async def telegraph_paste(_, message):
 
     # Xử lý trường hợp tin nhắn trả lời có văn bản
     if reply.text:
-        title = message.text.split(None, 1)[1] if len(message.command) > 1 else "Tiến Sĩ Tèo"
+        title = message.text.split(None, 1)[1] if len(message.command) > 1 else "Ruby Chan"
         data = reply.text.html.replace("\n", "<br>")
     # Xử lý trường hợp tin nhắn trả lời có caption của ảnh hoặc video
     elif reply.caption:
-        title = message.text.split(None, 1)[1] if len(message.command) > 1 else "Tiến Sĩ Tèo"
+        title = message.text.split(None, 1)[1] if len(message.command) > 1 else "Ruby Chan"
         data = reply.caption.html.replace("\n", "<br>")
     # Nếu không có văn bản và không có caption, gửi thông báo lỗi
     elif not reply and len(message.command) >= 2:
-        title = "Tiến Sĩ Tèo"
+        title = "Ruby Chan"
         data = message.text.split(None, 1)[1]
     else:
         return await msg.edit_msg("**Chỉ có văn bản hoặc mô tả ảnh/video mới được hỗ trợ.**")
