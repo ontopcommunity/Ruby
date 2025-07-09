@@ -99,7 +99,7 @@ async def star_donation(self: Client, ctx: Message):
     amount = ctx.command[1] if len(ctx.command) == 2 and ctx.command[1].isdigit() else 5
     await self.send_invoice(
         ctx.chat.id,
-        title="Ủng hộ Tiến Sĩ Tèo",
+        title="Ủng hộ Ruby Chan",
         description="Bạn có thể ủng hộ tôi qua việc tặng sao",
         currency="XTR",
         prices=[LabeledPrice(label="Ủng hộ", amount=amount)],
