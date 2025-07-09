@@ -366,7 +366,7 @@ async def memify(_, message):
             await processing_msg.delete()
             await message.reply_video(
                 output_file,
-                caption="Meme Video/GIF by Tiến Sĩ Tèo",
+                caption="Meme Video/GIF by Ruby Chan",
                 disable_notification=True
             )
         elif reply.sticker and (reply.sticker.is_animated or is_webm):
@@ -380,7 +380,7 @@ async def memify(_, message):
             webp, png = await draw_meme_text(file_path, message.text.split(None, 1)[1].strip())
             await processing_msg.delete()
             await gather(
-                message.reply_document(png, caption="Meme PNG by Tiến Sĩ Tèo"),
+                message.reply_document(png, caption="Meme PNG by Ruby Chan"),
                 message.reply_sticker(webp, emoji="😄", disable_notification=True)
             )
         else:
@@ -391,7 +391,7 @@ async def memify(_, message):
             webp, png = await draw_meme_text(file_path, message.text.split(None, 1)[1].strip())
             await processing_msg.delete()
             await gather(
-                message.reply_document(png, caption="Meme PNG by Tiến sĩ Tèo"),
+                message.reply_document(png, caption="Meme PNG by Ruby Chan"),
                 message.reply_sticker(webp, emoji="😄", disable_notification=True)
             )
 
