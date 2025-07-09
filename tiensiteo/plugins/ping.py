@@ -38,10 +38,10 @@ async def ping(_, ctx: Message):
     
     # Update message with ping results
     await rm.edit_msg(
-        f"<b>Tiến Sĩ Tèo {tiensiteo_version} bởi @dabeecao dựa trên Pyrogram {pyrover}.</b>\n\n"
+        f"<b>Ruby Chan {tiensiteo_version} bởi @ontop2k9 dựa trên Pyrogram {pyrover}.</b>\n\n"
         f"<b>Thời gian phản hồi:</b> <code>{time_taken_s} ms</code>\n"
         f"<b>Thời gian Uptime:</b> <code>{currentTime}</code>\n"
-        f"<b>Mọi thắc mắc và hợp tác vui lòng liên hệ tác giả. Nếu muốn ủng hộ bạn có thể xem cách ủng hộ bằng lệnh /donate</b>",
+        f"<b>Mọi thắc mắc và hợp tác vui lòng liên hệ tác giả</b>",
         reply_markup=contact_button
     )
 
