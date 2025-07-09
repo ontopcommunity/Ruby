@@ -1,6 +1,6 @@
-# 👨‍🔬 Tiến sĩ Tèo Bot 🤖
+# 👨‍🔬 Ruby Chan(aka Tèo)
 
-Chào mừng bạn đến với **Tiến sĩ Tèo Bot** – một bot Telegram mạnh mẽ và linh hoạt được thiết kế để quản lý nhóm hiệu quả, mang lại trải nghiệm tương tác thú vị và tiện lợi cho cộng đồng của bạn. Được xây dựng trên nền tảng Python 3, Pyrogram và MongoDB, Tiến sĩ Tèo Bot cung cấp khả năng tùy biến cao và hiệu suất đáng tin cậy.
+Chào mừng bạn đến với **Ruby Chan** – một bot Telegram mạnh mẽ và linh hoạt được thiết kế để quản lý nhóm hiệu quả, mang lại trải nghiệm tương tác thú vị và tiện lợi cho cộng đồng của bạn. Được xây dựng trên nền tảng Python 3, Pyrogram và MongoDB, Ruby Chan Bot cung cấp khả năng tùy biến cao và hiệu suất đáng tin cậy.
 
 ## 🚀 Tính năng chính
 
