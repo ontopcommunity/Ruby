@@ -214,7 +214,7 @@ def analyze_audio_features(
         plt.xlabel('Thời gian (s)')
         plt.ylabel('Tần số (Hz)')
         
-        plt.figtext(0.99, 0.01, 'Phân tích bởi Tiến sĩ Tèo', ha='right', fontsize=10, bbox={"facecolor":"white", "alpha":0.8, "pad":5})
+        plt.figtext(0.99, 0.01, 'Phân tích bởi Ruby Chan', ha='right', fontsize=10, bbox={"facecolor":"white", "alpha":0.8, "pad":5})
         plt.tight_layout()
         
         output_path = f"downloads/{uuid.uuid4()}_analysis.png"
