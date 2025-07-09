@@ -24,7 +24,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             InlineKeyboardButton(text="Các lệnh sử dụng ❓", callback_data="bot_commands"),
         ],
         [
-            InlineKeyboardButton(text="Liên hệ admin 👨", url="https://t.me/dabeecao"),
+            InlineKeyboardButton(text="Liên hệ admin 👨", url="https://t.me/ontop2k9"),
         ],
         [
             InlineKeyboardButton(
@@ -43,7 +43,7 @@ keyboard = InlineKeyboardMarkup(
             InlineKeyboardButton(text="Các lệnh sử dụng ❓", url=f"t.me/{BOT_USERNAME}?start=help"),
         ],
         [
-            InlineKeyboardButton(text="Liên hệ admin 👨", url="https://t.me/dabeecao"),
+            InlineKeyboardButton(text="Liên hệ admin 👨", url="https://t.me/ontop2k9"),
         ],
     ]
 )
@@ -56,7 +56,7 @@ async def start(self, ctx: Message, strings):
         nama = ctx.from_user.mention if ctx.from_user else ctx.sender_chat.title
         try:
             return await ctx.reply_photo(
-                photo="https://api.dabeecao.org/data/tiensi_teo_bot.jpg",
+                photo="https://i.ibb.co/gZGkC4jy/B4-AF7-ED4-6-DD3-42-D0-AFB3-895-A67-CB7650.png",
                 caption=strings("start_msg").format(kamuh=nama),
                 reply_markup=keyboard,
             )
@@ -91,7 +91,7 @@ async def start(self, ctx: Message, strings):
     else:
         await self.send_photo(
             ctx.chat.id,
-            photo="https://api.dabeecao.org/data/tiensi_teo_bot.jpg",
+            photo="https://i.ibb.co/gZGkC4jy/B4-AF7-ED4-6-DD3-42-D0-AFB3-895-A67-CB7650.png",
             caption=home_text_pm,
             reply_markup=home_keyboard_pm,
             reply_to_message_id=ctx.id,
@@ -187,7 +187,7 @@ Nếu bạn muốn tặng cà phê cho chủ sở hữu của tôi, bạn có th
 <b>Tôi chỉ hỗ trợ Tiếng Việt 🇻🇳</b>
 """.format(
             first_name=name,
-            bot_name="Tiến sĩ Tèo",
+            bot_name="Ruby Chan",
         ),
         keyb,
     )
