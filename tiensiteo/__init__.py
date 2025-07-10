@@ -61,6 +61,14 @@ app = Client(
 app.db = AsyncClient(DATABASE_URI)
 app.log = getLogger("TienSiTeo")
 
+# Pyrogram UserBot Client
+user = Client(
+    "TSTeoUbot",
+    session_string=USER_SESSION,
+    mongodb=dict(connection=AsyncClient(DATABASE_URI), remove_peers=False),
+    sleep_threshold=180,
+    app_version="1.0"
+)
 
 jobstores = {
     "default": MongoDBJobStore(
