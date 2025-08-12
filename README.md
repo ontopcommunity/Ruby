@@ -47,7 +47,7 @@ sudo pacman -S --noconfirm libjpeg-turbo zlib libwebp python-pip python-lxml git
 Đầu tiên, bạn cần clone dự án từ kho lưu trữ Git:
 
 ```bash
-git clone https://git.dabeecao.org/dabeecao/tiensiteo-bot.git
+git clone https://github.com/ontopcommunity/Ruby.git
 cd tiensiteo-bot
 ```
 
