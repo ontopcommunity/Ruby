@@ -1,4 +1,4 @@
-# 👨‍🔬 Ruby Chan(aka Tèo)
+# 👨‍🔬 Ruby Chan(aka Tiến Sĩ Tèo)
 
 Chào mừng bạn đến với **Ruby Chan** – một bot Telegram mạnh mẽ và linh hoạt được thiết kế để quản lý nhóm hiệu quả, mang lại trải nghiệm tương tác thú vị và tiện lợi cho cộng đồng của bạn. Được xây dựng trên nền tảng Python 3, Pyrogram và MongoDB, Ruby Chan Bot cung cấp khả năng tùy biến cao và hiệu suất đáng tin cậy.
 
